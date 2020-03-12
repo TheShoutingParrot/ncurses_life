@@ -1,0 +1,11 @@
+!Name: Time Bomb
+!Author: Doug Petrie
+!A glider-producing switch engine in disguise
+!https://www.conwaylife.com/ref/lexicon/lex_t.htm#timebomb
+
+.O...........OO
+O.O....O......O
+.......O....O..
+..O..O...O..O..
+..OO......O....
+...O...........
