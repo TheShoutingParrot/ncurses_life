@@ -1,5 +1,5 @@
 OBJ = main.o
-CC = tcc
+CC = gcc
 CFLAGS = -std=c99 -pedantic -Wall -Wextra
 LIBS = -lncurses
 H_FILES = ncurses_life.h
@@ -8,7 +8,7 @@ PREFIX = /usr/local
 all: options clean ncurses-life
 
 options:
-	@echo "interpret-bf make options:"
+	@echo "ncurses-life make options:"
 	@printf "CC\t= $(CC)\n"
 	@printf "CFLAGS\t= $(CFLAGS)\n"
 	@printf "PREFIX\t= $(PREFIX)\n\n"
